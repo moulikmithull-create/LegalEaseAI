@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1255.698333333333 1618.0860000000002" width="1255.698333333333" height="1618.0860000000002" style="--bg:#FFFFFF;--fg:#3B3B3B;--line:#3B3B3B;--accent:#005FB8;--muted:#3B3B3BCC;--surface:#F8F8F8;--border:#3B3B3B;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="857.5604999999998,76.9 857.5604999999998,124.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="798.5753333333332,161.8 798.5753333333332,209.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Invalid Dates / Missing Info" points="830.068,367.26333333333326 830.068,434.75600000000003 852.2073333333333,434.75600000000003 852.2073333333333,503.05600000000004" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="898.8185833333332,503.05600000000004 898.8185833333332,503.05600000000004 933.2031666666667,503.05600000000004 933.2031666666667,434.75600000000003 916.5456666666666,434.75600000000003 916.5456666666666,161.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Valid Input" points="767.0826666666665,367.26333333333326 767.0826666666665,446.75600000000003 690.7114166666665,446.75600000000003 690.7114166666665,491.05600000000004 594.8100833333333,491.05600000000004 594.8100833333333,672.856" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="500.30475,672.856 500.30475,648.856 404.40341666666666,648.856 404.40341666666666,394.15600000000006 327.71750000000003,394.15600000000006 327.71750000000003,289.85600000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="F" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Validation Error" points="391.00124999999997,289.85600000000005 391.00124999999997,361.85600000000005 524.5574166666667,361.85600000000005 524.5574166666667,442.15600000000006" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="524.5574166666667,479.05600000000004 524.5574166666667,503.05600000000004 805.5960833333334,503.05600000000004 805.5960833333334,503.05600000000004" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="F" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Success" points="264.43375000000003,289.85600000000005 264.43375000000003,325.85600000000005 191.02049999999997,325.85600000000005 191.02050000000003,406.15600000000006" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="191.02050000000003,443.05600000000004 191.0205,503.05600000000004" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="J" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="191.0205,539.956 191.0205,587.956" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="J" data-to="K" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="191.0205,624.856 191.02049999999997,672.856" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="K" data-to="L" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="191.02049999999997,709.756 191.02049999999997,727.756 517.7993333333332,727.756 517.7993333333332,745.756" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="L" data-to="M" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="517.7993333333332,782.656 517.7993333333332,818.656 599.4587499999998,818.656 599.4587499999998,860.4196666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M" data-to="N" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Yes" points="658.9860833333332,860.4196666666667 658.9860833333332,818.656 1155.869333333333,818.656 1155.869333333333,587.956 1111.0645,587.956 1111.0645,539.956" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="N" data-to="O" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1042.2471666666665,539.956 1042.2471666666665,587.956 997.4423333333334,587.956 997.4423333333334,587.956" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="O" data-to="P" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="997.4423333333334,624.856 997.4423333333332,672.856" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P" data-to="L" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="997.4423333333332,709.756 997.4423333333332,727.756 517.7993333333332,727.756 517.7993333333332,745.756" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M" data-to="Q" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="No / Finished" points="629.2224166666665,1009.2379999999999 629.2224166666665,1125.538" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Q" data-to="R" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="629.2224166666665,1323.386 629.2224166666665,1353.386 416.2045833333333,1353.386 416.2045833333333,1383.386" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Q" data-to="S" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="629.2224166666665,1323.386 629.2224166666665,1353.386 674.7390833333333,1353.386 674.7390833333333,1383.386" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Q" data-to="T" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="629.2224166666665,1323.386 629.2224166666665,1353.386 944.3885833333333,1353.386 944.3885833333333,1383.386" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="R" data-to="U" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="416.2045833333333,1420.286 416.2045833333333,1438.286 674.7390833333332,1438.286 674.7390833333332,1456.286" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S" data-to="U" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="674.7390833333333,1420.286 674.7390833333333,1438.286 674.7390833333332,1438.286 674.7390833333332,1456.286" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="T" data-to="U" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="944.3885833333333,1420.286 944.3885833333333,1438.286 674.7390833333332,1438.286 674.7390833333332,1456.286" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="U" data-to="V" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="674.7390833333332,1493.1860000000001 674.7390833333332,1541.1860000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="C" data-to="D" data-label="Invalid Dates / Missing Info">
+  <rect x="781.7073333333333" y="441.75600000000003" width="140.014" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="851.7143333333333" y="456.906" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Invalid Dates / Missing Info</text>
+</g>
+<g class="edge-label" data-from="C" data-to="E" data-label="Valid Input">
+  <rect x="657.7114166666665" y="453.75600000000003" width="65.764" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="690.5934166666665" y="468.906" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Valid Input</text>
+</g>
+<g class="edge-label" data-from="F" data-to="G" data-label="Validation Error">
+  <rect x="477.5574166666666" y="368.85600000000005" width="93.08800000000004" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="524.1014166666666" y="384.00600000000003" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Validation Error</text>
+</g>
+<g class="edge-label" data-from="F" data-to="H" data-label="Success">
+  <rect x="160.52049999999997" y="332.85600000000005" width="60.418000000000006" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="190.72949999999997" y="348.00600000000003" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Success</text>
+</g>
+<g class="edge-label" data-from="M" data-to="N" data-label="Yes">
+  <rect x="1137.369333333333" y="781.356" width="36.658" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1155.698333333333" y="796.506" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Yes</text>
+</g>
+<g class="edge-label" data-from="M" data-to="Q" data-label="No / Finished">
+  <rect x="589.7224166666665" y="1052.2379999999998" width="78.83200000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="629.1384166666666" y="1067.388" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">No / Finished</text>
+</g>
+<g class="node" data-id="A" data-label="Start" data-shape="rectangle">
+  <rect x="822.5065" y="40" width="70.108" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="857.5604999999999" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Start</text>
+</g>
+<g class="node" data-id="B" data-label="User Selects Document Type &amp; Inputs Contract Details" data-shape="rectangle">
+  <rect x="680.605" y="124.9" width="353.9109999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="857.5604999999999" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">User Selects Document Type &amp; Inputs Contract Details</text>
+</g>
+<g class="node" data-id="C" data-label="Client-Side Validation" data-shape="diamond">
+  <polygon points="798.5753333333332,209.8 893.0533333333333,304.278 798.5753333333332,398.75600000000003 704.0973333333332,304.278" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="798.5753333333332" y="304.278" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Client-Side Validation</text>
+</g>
+<g class="node" data-id="D" data-label="Display Form Error Alert" data-shape="rectangle">
+  <rect x="758.9848333333332" y="503.05600000000004" width="186.44499999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="852.2073333333332" y="521.5060000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Display Form Error Alert</text>
+</g>
+<g class="node" data-id="E" data-label="Send POST /generate Request to FastAPI" data-shape="rectangle">
+  <rect x="405.7994166666667" y="672.856" width="283.51599999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="547.5574166666667" y="691.306" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Send POST /generate Request to FastAPI</text>
+</g>
+<g class="node" data-id="F" data-label="FastAPI Pydantic Schema Validation" data-shape="rectangle">
+  <rect x="201.15000000000003" y="252.95600000000005" width="253.13499999999993" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="327.7175" y="271.40600000000006" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">FastAPI Pydantic Schema Validation</text>
+</g>
+<g class="node" data-id="G" data-label="Return HTTP 422 JSON Error" data-shape="rectangle">
+  <rect x="415.40341666666666" y="442.15600000000006" width="218.308" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="524.5574166666667" y="460.60600000000005" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Return HTTP 422 JSON Error</text>
+</g>
+<g class="node" data-id="H" data-label="Gemini Document Generator Builds Prompt" data-shape="rectangle">
+  <rect x="47.78050000000006" y="406.15600000000006" width="286.4799999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="191.02050000000003" y="424.60600000000005" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Gemini Document Generator Builds Prompt</text>
+</g>
+<g class="node" data-id="I" data-label="Google Gemini AI Engine Processes Request" data-shape="rectangle">
+  <rect x="40" y="503.05600000000004" width="302.041" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="191.0205" y="521.5060000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Google Gemini AI Engine Processes Request</text>
+</g>
+<g class="node" data-id="J" data-label="Sanitize &amp; Clean AI Output" data-shape="rectangle">
+  <rect x="96.68650000000002" y="587.956" width="188.66799999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="191.0205" y="606.4060000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Sanitize &amp; Clean AI Output</text>
+</g>
+<g class="node" data-id="K" data-label="Return JSON Response to Frontend" data-shape="rectangle">
+  <rect x="64.8235" y="672.856" width="252.39399999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="191.02049999999997" y="691.306" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Return JSON Response to Frontend</text>
+</g>
+<g class="node" data-id="L" data-label="Render Dark-Themed Styled HTML Preview &amp; Terms Table" data-shape="rectangle">
+  <rect x="324.5418333333333" y="745.756" width="386.5149999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="517.7993333333332" y="764.206" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Render Dark-Themed Styled HTML Preview &amp; Terms Table</text>
+</g>
+<g class="node" data-id="M" data-label="User Wants to Edit?" data-shape="diamond">
+  <polygon points="629.2224166666665,830.656 718.5134166666664,919.9469999999999 629.2224166666665,1009.2379999999998 539.9314166666666,919.9469999999999" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="629.2224166666665" y="919.9469999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">User Wants to Edit?</text>
+</g>
+<g class="node" data-id="N" data-label="Click 'Click to Edit Document'" data-shape="rectangle">
+  <rect x="973.4298333333334" y="503.05600000000004" width="206.45199999999994" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1076.6558333333332" y="521.5060000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Click &#39;Click to Edit Document&#39;</text>
+</g>
+<g class="node" data-id="O" data-label="Modify Text in Editor &amp; Click 'Save Changes'" data-shape="rectangle">
+  <rect x="849.0153333333333" y="587.956" width="296.854" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="997.4423333333333" y="606.4060000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Modify Text in Editor &amp; Click &#39;Save Changes&#39;</text>
+</g>
+<g class="node" data-id="P" data-label="Update Streamlit Session State" data-shape="rectangle">
+  <rect x="887.9178333333332" y="672.856" width="219.04899999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="997.4423333333332" y="691.306" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Update Streamlit Session State</text>
+</g>
+<g class="node" data-id="Q" data-label="Choose Export Format" data-shape="diamond">
+  <polygon points="629.2224166666665,1125.538 728.1464166666665,1224.462 629.2224166666665,1323.386 530.2984166666665,1224.462" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="629.2224166666665" y="1224.462" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Choose Export Format</text>
+</g>
+<g class="node" data-id="R" data-label="Download as Plain Text .TXT" data-shape="rectangle">
+  <rect x="311.4965833333333" y="1383.386" width="209.41599999999994" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="416.2045833333333" y="1401.836" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Download as Plain Text .TXT</text>
+</g>
+<g class="node" data-id="S" data-label="Download as Word Document .DOCX" data-shape="rectangle">
+  <rect x="548.9125833333333" y="1383.386" width="251.65299999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="674.7390833333333" y="1401.836" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Download as Word Document .DOCX</text>
+</g>
+<g class="node" data-id="T" data-label="Download as Branded PDF .PDF" data-shape="rectangle">
+  <rect x="828.5655833333333" y="1383.386" width="231.64599999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="944.3885833333333" y="1401.836" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Download as Branded PDF .PDF</text>
+</g>
+<g class="node" data-id="U" data-label="Final Download Ready" data-shape="rectangle">
+  <rect x="588.5560833333332" y="1456.286" width="172.36599999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="674.7390833333332" y="1474.736" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Final Download Ready</text>
+</g>
+<g class="node" data-id="V" data-label="End" data-shape="rectangle">
+  <rect x="641.9080833333333" y="1541.1860000000001" width="65.662" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="674.7390833333333" y="1559.6360000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">End</text>
+</g>
+</svg>
