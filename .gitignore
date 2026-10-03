@@ -1,0 +1,15 @@
+# LegalEase AI Git Ignore
+.env
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.streamlit/
+*.log
+dist/
+build/
+*.egg-info/
+.DS_Store
+Thumbs.db
